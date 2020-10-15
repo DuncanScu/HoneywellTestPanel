@@ -8,6 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("api/key.txt")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("customerdata.txt")]
 
 

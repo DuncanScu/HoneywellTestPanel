@@ -13,3 +13,5 @@ C:\Users\dunca\Documents\HoneywellTest\HoneywellTest\obj\Debug\HoneywellTest.csp
 C:\Users\dunca\Documents\HoneywellTest\HoneywellTest\obj\Debug\HoneywellTest.csproj.CoreCompileInputs.cache
 C:\Users\dunca\Documents\HoneywellTest\HoneywellTest\obj\Debug\HoneywellTest.exe
 C:\Users\dunca\Documents\HoneywellTest\HoneywellTest\obj\Debug\HoneywellTest.pdb
+C:\Users\dunca\Documents\HoneywellTest\HoneywellTest\obj\Debug\Window1.g.cs
+C:\Users\dunca\Documents\HoneywellTest\HoneywellTest\obj\Debug\Window1.baml

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:HoneywellTest"
         mc:Ignorable="d"
-        Title="Honeywell Program" Height="413" Width="800">
+        Title="Honeywell Program" Height="420" Width="800">
 
 
     <Border Padding="10">
@@ -55,7 +55,7 @@
                         <ColumnDefinition Width="*"/>
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
-                    
+
                     <TextBlock Padding="2" Grid.Column="0" Text="County"/>
                     <TextBox x:Name="County" Padding="2" Grid.Column="1"/>
                 </Grid>
@@ -67,7 +67,7 @@
                     <TextBlock Padding="2" Grid.Column="0" Text="Postcode"/>
                     <TextBox x:Name="PostCode" Padding="2" Grid.Column="1"/>
                 </Grid>
-                
+
             </StackPanel>
             <!-- Phone Number -->
             <StackPanel>
@@ -111,7 +111,8 @@
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
                     <TextBlock Padding="2" Text="Password"/>
-                    <PasswordBox x:Name="Password" Padding="2" Grid.Column="1" /> <!-- Password box used for safety -->
+                    <PasswordBox x:Name="Password" Padding="2" Grid.Column="1" />
+                    <!-- Password box used for safety -->
                 </Grid>
             </StackPanel>
             <!-- Buttons -->
@@ -135,13 +136,12 @@
                         <DataGridTextColumn Header="Street" Width="*" Binding="{Binding customerStreet}"/>
                         <DataGridTextColumn Header="County" Width="*" Binding="{Binding customerCounty}"/>
                         <DataGridTextColumn Header="Post Code" Width="*" Binding="{Binding customerPostCode}"/>
-                        <DataGridTextColumn Header="Phone Number" Width="*" Binding="{Binding customerPhoneNumber}"/>
-                        <DataGridTextColumn Header="Email" Width="*" Binding="{Binding customerEmail}"/>
-                        <DataGridTextColumn Header="User" Width="*" Binding="{Binding customerUsername}"/>
+                        <DataGridTextColumn Header="Phone Number" Width="1.25*" Binding="{Binding customerPhoneNumber}"/>
+                        <DataGridTextColumn Header="Email" Width="1.25*" Binding="{Binding customerEmail}"/>
+                        <DataGridTextColumn Header="User" Width="1.25*" Binding="{Binding customerUsername}"/>
                     </DataGrid.Columns>
                 </DataGrid>
             </Grid>
         </StackPanel>
-
     </Border>
 </Window>
