@@ -23,6 +23,19 @@ namespace HoneywellTest
 	/// <summary>
 	/// Interaction logic for MainWindow.xaml
 	/// </summary>
+	/// Notes:
+	///		For this project, there is much more that I would have loved to do with it, if i was more experienced and had more time.
+	///		Therefor, I assumed that certain conditions were met
+	///		1) Password was secure (Upper,Lower,Number, and special characters)
+	///		2)All details entered were valid
+	///		3)Usernames could be used multiple times
+	///		4)All data was entered in the lower case
+	///		
+	///		Given more time I would have liked to:
+	///		1) implemented an autofill feature for the address
+	///		2) fixed the Datagrid so that the infomation is updated with the data directly from the .txt file
+	///		3) implemented password verification, with a strength setting (low/mid/high)
+	///		4) More functionality in terms of editing submitted data
 	
 
 	public partial class MainWindow : Window
@@ -32,7 +45,6 @@ namespace HoneywellTest
 			InitializeComponent();
 			
 		}
-
 
 
 		public class Customer //This creates a Class called "Customer", which will be used for the input
