@@ -1,0 +1,15 @@
+C:\Users\dunca\Documents\HoneywellTest\HoneywellTest\bin\Debug\HoneywellTest.exe.config
+C:\Users\dunca\Documents\HoneywellTest\HoneywellTest\bin\Debug\HoneywellTest.exe
+C:\Users\dunca\Documents\HoneywellTest\HoneywellTest\bin\Debug\HoneywellTest.pdb
+C:\Users\dunca\Documents\HoneywellTest\HoneywellTest\obj\Debug\HoneywellTest.csprojAssemblyReference.cache
+C:\Users\dunca\Documents\HoneywellTest\HoneywellTest\obj\Debug\MainWindow.g.cs
+C:\Users\dunca\Documents\HoneywellTest\HoneywellTest\obj\Debug\App.g.cs
+C:\Users\dunca\Documents\HoneywellTest\HoneywellTest\obj\Debug\HoneywellTest_MarkupCompile.cache
+C:\Users\dunca\Documents\HoneywellTest\HoneywellTest\obj\Debug\HoneywellTest_MarkupCompile.lref
+C:\Users\dunca\Documents\HoneywellTest\HoneywellTest\obj\Debug\MainWindow.baml
+C:\Users\dunca\Documents\HoneywellTest\HoneywellTest\obj\Debug\HoneywellTest.g.resources
+C:\Users\dunca\Documents\HoneywellTest\HoneywellTest\obj\Debug\HoneywellTest.Properties.Resources.resources
+C:\Users\dunca\Documents\HoneywellTest\HoneywellTest\obj\Debug\HoneywellTest.csproj.GenerateResource.cache
+C:\Users\dunca\Documents\HoneywellTest\HoneywellTest\obj\Debug\HoneywellTest.csproj.CoreCompileInputs.cache
+C:\Users\dunca\Documents\HoneywellTest\HoneywellTest\obj\Debug\HoneywellTest.exe
+C:\Users\dunca\Documents\HoneywellTest\HoneywellTest\obj\Debug\HoneywellTest.pdb
