@@ -72,7 +72,7 @@ namespace HoneywellTest
 		private void ApplyButton_Click(object sender, RoutedEventArgs e) //Activates following event when APPLY button is clicked
 		{
 			MessageBox.Show($"Data has been saved with the username: {this.Username.Text}"); //Simple Message Box statment
-			Customer customer = new Customer(); //Creates a new customer object, where the follwing code will construct the object with the data from the user
+			Customer customer = new Customer(); //Creates a new customer object, where the following code will construct the object with the data from the user
 				customer.customerFirstName = this.FirstName.Text;
 				customer.customerLastName = this.LastName.Text;
 				customer.customerCountry = this.Country.Text;
@@ -84,9 +84,8 @@ namespace HoneywellTest
 				customer.customerPhoneNumber = this.PhoneNumber.Text;
 			WriteToFile(customer.customerFirstName, customer.customerLastName, customer.customerCountry, customer.customerStreet, customer.customerCounty, customer.customerPostCode, customer.customerUsername, customer.customerEmail, customer.customerPhoneNumber);
 
-			
-
-			CustomerDataGrid.Items.Add(customer); // This adds the items of the user (From the object) to the Data Grid through the use of bindings
+			CustomerDataGrid.Items.Add(customer);
+			// This adds the items of the user (From the object) to the Data Grid through the use of bindings
 			//The password is not displayed because of security. Showing a password would never be a good idea.
 
 			//I deally I would have liked to use the stored data to build the DataGrid, but ran into issues

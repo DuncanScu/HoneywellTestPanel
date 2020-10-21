@@ -27,7 +27,7 @@
                         <ColumnDefinition Width="*"/>
                         <ColumnDefinition Width="*"/>
                     </Grid.ColumnDefinitions>
-                    <TextBlock Padding="2" Grid.Column="0" Text="Last Name"/>
+                    <TextBlock Padding="2" Grid.Column="0" Text="Last Name" />
                     <TextBox x:Name="LastName" Padding="2" Grid.Column="1" />
                 </Grid>
             </StackPanel>
@@ -122,8 +122,8 @@
                     <ColumnDefinition Width="*"/>
 
                 </Grid.ColumnDefinitions>
-                <Button x:Name="ApplyButton" Click="ApplyButton_Click" Grid.Column="0" Content="Apply" Margin="5 5 5 0"/>
-                <Button x:Name="ResetButton" Click="ResetButton_Click" Grid.Column="1" Content="Reset" Margin="5 5 5 0"/>
+                <Button x:Name="ApplyButton" Click="ApplyButton_Click" Grid.Column="0" Content="Apply" Width="250" Margin="5 5 5 0"/>
+                <Button x:Name="ResetButton" Click="ResetButton_Click" Grid.Column="1" Content="Reset" Width="250" Margin="5 5 5 0"/>
             </Grid>
             <TextBlock Margin=" 0 5 0 0" Text="Data Grid of Customers" HorizontalAlignment="Center" TextDecorations="Underline" FontWeight="Bold" />
             <!-- Data Grid -->
